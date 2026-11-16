@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Prafful Kumar Khoba</title>
+  <meta name="author" content="Prafful Kumar Khoba">
+  <meta name="description" content="PhD researcher at IIT Delhi & University of Queensland working on efficient adaptation of vision and vision-language models.">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Lato', Verdana, Helvetica, sans-serif; font-size: 14px; color: #1a1a1a; margin: 0; background: #fff; }
+    a { color: #1772d0; text-decoration: none; }
+    a:hover, a:focus { color: #f09228; }
+    .page { max-width: 800px; margin: 0 auto; padding: 20px 16px 40px; }
+    .intro { display: flex; gap: 28px; align-items: center; }
+    .intro-text { flex: 1 1 63%; }
+    .intro-photo { flex: 0 0 37%; text-align: center; }
+    .intro-photo img { width: 100%; max-width: 260px; aspect-ratio: 1; object-fit: cover; border-radius: 50%; background: #eee; }
+    .name { font-size: 32px; text-align: center; margin: 0 0 16px; font-weight: 400; }
+    p { line-height: 1.55; margin: 0 0 12px; }
+    .links { text-align: center; }
+    h2 { font-size: 22px; font-weight: 400; margin: 34px 0 6px; }
+    .paper { display: flex; gap: 20px; padding: 16px 10px; border-radius: 6px; }
+    .paper.highlight { background: #ffffd0; }
+    .thumb { flex: 0 0 200px; display:flex; align-items:center; }
+    .thumb img { width: 200px; max-height: 160px; object-fit: contain; border-radius: 4px; display: block; }
+    .paper-text { flex: 1; }
+    .papertitle { font-size: 15px; font-weight: 700; }
+    .authors { margin-top: 4px; }
+    .venue { font-style: italic; margin-top: 2px; }
+    .badge { color: #c0392b; font-style: normal; font-weight: 700; }
+    .plinks { margin: 4px 0 6px; }
+    ul.plain { padding-left: 18px; margin: 6px 0; line-height: 1.6; }
+    .muted { color: #666; }
+    footer { text-align: right; font-size: 12px; color: #888; margin-top: 30px; }
+    @media (max-width: 640px) {
+      .intro { flex-direction: column-reverse; }
+      .paper { flex-direction: column; }
+      .thumb { flex-basis: auto; } .thumb img { width: 100%; max-height: none; }
+    }
+  </style>
+</head>
+<body>
+<div class="page">
+
+  <!-- ============ INTRO ============ -->
+  <div class="intro">
+    <div class="intro-text">
+      <h1 class="name">Prafful Kumar Khoba</h1>
+      <p>
+        I'm a PhD student in Computer Science at <a href="https://home.iitd.ac.in/">IIT Delhi</a>, part of the
+        <a href="https://uqidar.iitd.ac.in/">UQ–IITD Research Academy</a> with the
+        <a href="https://www.uq.edu.au/">University of Queensland</a>. I'm advised by
+        <a href="https://www.cse.iitd.ac.in/~chetan/">Prof. Chetan Arora</a> and
+        <a href="https://about.uq.edu.au/experts/23620">Prof. Mahsa Baktashmotlagh</a>.
+      </p>
+      <p>
+        Before my PhD, I was an Assistant Research Fellow at <a href="https://cvit.iiit.ac.in/">IIIT Hyderabad</a>
+        with Prof. C.V. Jawahar and Prof. Ravi Kiran S. I did my M.Tech. in Communication Systems at IIT Roorkee
+        and my B.Tech. in Electronics and Communication at Delhi Technological University.
+      </p>
+      <p class="links">
+        <a href="mailto:khobaiit@gmail.com">Email</a> &nbsp;/&nbsp;
+                <a href="https://scholar.google.com/citations?user=5fMqPKoAAAAJ&hl=en">Scholar</a> &nbsp;/&nbsp;
+        <a href="https://github.com/prafful-kumar">GitHub</a> &nbsp;/&nbsp;
+        <a href="https://www.linkedin.com/in/prafful-kumar-khoba-b06434104/">LinkedIn</a>
+      </p>
+    </div>
+    <div class="intro-photo">
+      <a href="images/prafful.jpg"><img src="images/prafful.jpg" alt="Photo of Prafful Kumar Khoba"></a>
+    </div>
+  </div>
+
+  <!-- ============ RESEARCH ============ -->
+  <h2>Research</h2>
+  <p>
+    I work on efficient model adaptation: parameter-efficient fine-tuning (PEFT), Mixture-of-Experts routing,
+    adaptive vision-language models, and transferability estimation. I develop geometry-aware methods for
+    selecting, routing and adapting pre-trained models without exhaustive fine-tuning.
+    Representative papers are <span style="background:#ffffd0">highlighted</span>.
+  </p>
+
+  <!-- PEFTDiff -->
+  <div class="paper highlight">
+    <div class="thumb"><a href="images/peftdiff.png"><img src="images/peftdiff.png" alt="PEFTDiff teaser"></a></div>
+    <div class="paper-text">
+      <a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Khoba_PEFTDiff_Diffusion-Guided_Transferability_Estimation_for_Parameter-Efficient_Fine-Tuning_ICCV_2025_paper.pdf"
+         class="papertitle">PEFTDiff: Diffusion-Guided Transferability Estimation for Parameter-Efficient Fine-Tuning</a>
+      <div class="authors"><strong>Prafful Kumar Khoba</strong>, Zijian Wang, Chetan Arora, Mahsa Baktashmotlagh</div>
+      <div class="venue">ICCV, 2025</div>
+      <div class="plinks">
+        <a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Khoba_PEFTDiff_Diffusion-Guided_Transferability_Estimation_for_Parameter-Efficient_Fine-Tuning_ICCV_2025_paper.pdf">paper</a>
+        <!-- / <a href="#">code</a> / <a href="#">arXiv</a> -->
+      </div>
+      <p>A diffusion-map metric that ranks PEFT methods for a new dataset without fine-tuning them all, cutting selection cost by 199× on VTAB-1k.</p>
+    </div>
+  </div>
+
+  <!-- Feature Space Perturbation -->
+  <div class="paper highlight">
+    <div class="thumb"><a href="images/fsp.png"><img src="images/fsp.png" alt="Feature Space Perturbation teaser"></a></div>
+    <div class="paper-text">
+      <a href="https://openaccess.thecvf.com/content/WACV2025/papers/Khoba_Feature_Space_Perturbation_A_Panacea_to_Enhanced_Transferability_Estimation_WACV_2025_paper.pdf"
+         class="papertitle">Feature Space Perturbation: A Panacea to Enhanced Transferability Estimation</a>
+      <div class="authors"><strong>Prafful Kumar Khoba</strong>, Zijian Wang, Chetan Arora, Mahsa Baktashmotlagh</div>
+      <div class="venue">WACV, 2025 &nbsp;<span class="badge">(Oral Presentation)</span></div>
+      <div class="plinks">
+        <a href="https://openaccess.thecvf.com/content/WACV2025/papers/Khoba_Feature_Space_Perturbation_A_Panacea_to_Enhanced_Transferability_Estimation_WACV_2025_paper.pdf">paper</a>
+      </div>
+      <p>Spread-Attract perturbs the feature space to make transferability metrics more reliable, improving LogME by 28.8% across 11 datasets.</p>
+    </div>
+  </div>
+
+  <!-- FGVD -->
+  <div class="paper">
+    <div class="thumb"><a href="images/fgvd.png"><img src="images/fgvd.png" alt="FGVD dataset teaser"></a></div>
+    <div class="paper-text">
+      <a href="https://arxiv.org/abs/2212.14569" class="papertitle">A Fine-Grained Vehicle Detection (FGVD) Dataset for Unconstrained Roads</a>
+      <div class="authors"><strong>Prafful Kumar Khoba</strong>, Chirag Parikh, Rohit Saluja, Ravi Kiran Sarvadevabhatla, C.V. Jawahar</div>
+      <div class="venue">ICVGIP, 2022</div>
+      <div class="plinks"><a href="https://arxiv.org/abs/2212.14569">arXiv</a></div>
+      <p>The first fine-grained vehicle detection dataset for Indian roads: 5,502 images and 210k annotations across a 3-level type / make / model hierarchy.</p>
+    </div>
+  </div>
+
+  <!-- ============ NEWS / AWARDS ============ -->
+  <h2>Awards</h2>
+  <ul class="plain">
+    <li>Amazon India — Top 100 AI/ML Researchers, 2026</li>
+    <li>Covidscape Challenge Winner (IIT Roorkee), 2020 — portable UVC sterilization device (provisional patent 202111046071)</li>
+  </ul>
+
+  <h2>Service</h2>
+  <ul class="plain">
+    <li>GPU cluster admin, Dept. of Computer Science, IIT Delhi (2024 – present)</li>
+    <li>Teaching Assistant, IIT Roorkee — signal processing &amp; communication systems (2019 – 2021)</li>
+  </ul>
+
+  <footer>Design adapted from <a href="https://github.com/jonbarron/website">Jon Barron's website</a>.</footer>
+</div>
+</body>
+</html>
